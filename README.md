@@ -63,6 +63,9 @@ I don't like the Dock in screen
  *bash*
  
      git config --global --edit
- 
+     
+     git config --global core.excludesfile ~/.gitignore_global
+     echo .DS_Store > ~/.gitignore_global
+     
 
 *source: [rvm.io](http://rvm.io)* 
