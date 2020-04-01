@@ -56,8 +56,9 @@ I don't like the Dock in screen
 
     gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E37D2BAF1CF37B13E2069D6956105BD0E739499BDB
     
-  \curl -sSL https://get.rvm.io | bash -s stable
+  curl -sSL https://get.rvm.io | bash -s stable
   
+   source /Users/paulverschoor/.rvm/scripts/rvm
   
  # configure git
  *bash*
