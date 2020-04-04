@@ -35,12 +35,19 @@ Special for me
 
 install manually
 * Chrome https://www.google.nl/intl/nl/chrome
+  * Chrome extension LastPass https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd/related?hl=nl
 * Dropbox https://www.dropbox.com/install
 * Atom https://atom.io
+  You will get an '"Atom" can’t be opened because Apple cannot check it for malicious software.' error.
+  Copy it from the Downloads folder to the Applications folder, then you right-click it and select Open. One of the choices in the dialog will be to launch the application. When you do that, you’re whitelisting it to be run in spite of the inability to check it.
   * Atom packackes
   * auto-indent
 * Discord https://discordapp.com/download
 * Visual studio code https://code.visualstudio.com/Download
+  *
+* Zoom  https://zoom.us/download
+* Teamviewer https://www.teamviewer.com/nl/teamviewer-automatisch-downloaden/
+* 
 
 Install from the AppStore
 * Slack
