@@ -12,6 +12,7 @@ Set your preferred way of the clock
 
 
 
+
 **Install homebrew**
 
 Homebrew is an packagage installer that will help you installing a lot of programs right from the command line. So type in *terminal* in your spotlight (⌘+space) and hit the following code.
@@ -24,8 +25,6 @@ Now you can install many needed programs straight from the terminal.
 Here are some defaults for most people.
 
     brew update
-    brew install chrome
-    brew install evernote
     brew install gnupg gnupg2 (needed for rvm)    
     
 Special for me
@@ -35,21 +34,32 @@ Special for me
 
 
 install manually
-* Dropbox
-* Chrome
-* Atom
+* Chrome https://www.google.nl/intl/nl/chrome
+* Dropbox https://www.dropbox.com/install
+* Atom https://atom.io
   * Atom packackes
   * auto-indent
-* Discord
+* Discord https://discordapp.com/download
+* Visual studio code https://code.visualstudio.com/Download
 
 Install from the AppStore
 * Slack
+* Window Tidy
+* inet network scanner
 
 
 I don't like the Dock in screen
 
     defaults write com.apple.dashboard mcx-disabled -boolean YES
     killall Dock
+
+Doesn't seen to work on **macOS Catalina**
+    This makes the tiles really small, but still there
+    
+    defaults write com.apple.dock tilesize -integer 1; killall Dock               # This makes the tiles really small, but still there
+    defaults write com.apple.dock static-only -bool true; killall Dock            # Only active apps, to make it smaller
+    defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock   # Can't make it disappear, so make it fast
+    defaults delete com.apple.dock;  killall Dock                                 # Set back to defaults
 
 
 # Install RVM
