@@ -37,6 +37,11 @@ install manually
 * Chrome https://www.google.nl/intl/nl/chrome
   * Chrome extension LastPass https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd/related?hl=nl
 * Dropbox https://www.dropbox.com/install
+* PGadmin https://www.pgadmin.org/download/
+  * Add servers
+    * Remote servers
+    * intranet servers
+    * localhost
 * Atom https://atom.io
   You will get an '"Atom" can’t be opened because Apple cannot check it for malicious software.' error.
   Copy it from the Downloads folder to the Applications folder, then you right-click it and select Open. One of the choices in the dialog will be to launch the application. When you do that, you’re whitelisting it to be run in spite of the inability to check it.
@@ -54,7 +59,7 @@ Install from the AppStore
 * Window Tidy
 * inet network scanner
 
-
+# Change some system settings to my own preference.
 I don't like the Dock in screen
 
     defaults write com.apple.dashboard mcx-disabled -boolean YES
@@ -68,6 +73,50 @@ Doesn't seen to work on **macOS Catalina**
     defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock   # Can't make it disappear, so make it fast
     defaults delete com.apple.dock;  killall Dock                                 # Set back to defaults
 
+## 
+System Preferences / Keyboard
+Key Repeat :               All the way right (fast)
+Delay untilrepeat Repeat : All the way right (short)
+
+# Users & Groups
+System Preferences / Users & Groups
+[X] Show fast user switching menu as Full Name 
+
+## Date & Time
+System Preferences / Date & Time / Clock
+
+### Time options
+[X] Digital
+[X] Display the time with seconds
+[X] Use a 24-hour clock
+
+### Date options
+[X] Show the day of the week
+[X] Show date
+
+
+
+## Set up Spaces
+
+First create new spaces
+CTRL ⬆️
+and press the + sign in the right corner and add 4 spaces
+
+Now add a shortcut for each space
+CTRL 1
+CTRL 2
+CTRL 3
+CTRL 4
+
+System Preferences / Mission Control 
+[] When swirching to an application, swith to a Space with open window for the application
+
+
+System Preferences / Keyboard
+Add Mission control shortcuts
+[] Switch to Desktop 1
+
+# Install printers
 
 # Install RVM
 
