@@ -59,6 +59,10 @@ Install from the AppStore
 * Window Tidy
 * inet network scanner
 
+## Symlinks
+
+    ln -s /Users/paulverschoor/Dropbox/.config/.ssh/config ~/.ssh/config
+
 # Change some system settings to my own preference.
 I don't like the Dock in screen
 
