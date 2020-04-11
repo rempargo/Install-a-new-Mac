@@ -140,3 +140,7 @@ Add Mission control shortcuts
      
 
 *source: [rvm.io](http://rvm.io)* 
+
+configure bundler
+
+    config build.pg --with-pg-config=/Applications/Postgres.app/Contents/Versions/11/bin/pg_config
