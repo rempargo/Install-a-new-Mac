@@ -37,6 +37,9 @@ install manually
 * Chrome https://www.google.nl/intl/nl/chrome
   * Chrome extension LastPass https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd/related?hl=nl
 * Dropbox https://www.dropbox.com/install
+* PostgreSQL (follow coorect procedure for terminal executables https://postgresapp.com/
+   sudo mkdir -p /etc/paths.d && echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+   
 * PGadmin https://www.pgadmin.org/download/
   * Add servers
     * Remote servers
