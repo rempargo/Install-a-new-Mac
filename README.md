@@ -55,7 +55,7 @@ install manually
   *
 * Zoom  https://zoom.us/download
 * Teamviewer https://www.teamviewer.com/nl/teamviewer-automatisch-downloaden/
-* 
+* Node https://nodejs.org/en/download/ 
 
 Install from the AppStore
 * Slack
@@ -132,7 +132,11 @@ Add Mission control shortcuts
   curl -sSL https://get.rvm.io | bash -s stable
   
    source /Users/paulverschoor/.rvm/scripts/rvm
-  
+ 
+ 
+ 
+ 
+ 
  # configure git
  *bash*
  
