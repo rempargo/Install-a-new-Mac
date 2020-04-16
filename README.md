@@ -57,6 +57,7 @@ install manually
 * Teamviewer https://www.teamviewer.com/nl/teamviewer-automatisch-downloaden/
 * Node https://nodejs.org/en/download/ 
 * Postman https://www.postman.com/downloads/
+* Microsfot Office https://account.microsoft.com/services/office/install
 
 Install from the AppStore
 * Slack
