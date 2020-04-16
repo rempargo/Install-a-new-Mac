@@ -56,6 +56,7 @@ install manually
 * Zoom  https://zoom.us/download
 * Teamviewer https://www.teamviewer.com/nl/teamviewer-automatisch-downloaden/
 * Node https://nodejs.org/en/download/ 
+* Postman https://www.postman.com/downloads/
 
 Install from the AppStore
 * Slack
