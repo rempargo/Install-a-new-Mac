@@ -30,6 +30,7 @@ Here are some defaults for most people.
 Special for me
     brew install ssh-copy-id
     brew install imagemagick --build-from-source --with-quantum-depth-8
+    brew install wget
     
 
 
